@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "MPI build",
+            "type": "shell",
+            "command": "cmd.exe",
+            "args": [
+                "/c",
+                "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\Tools\\VsDevCmd.bat\" -arch=x64 && cl.exe /EHsc /Zi /nologo /I \"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include\" \"${file}\" /Fe\"${fileDirname}\\${fileBasenameNoExtension}.exe\" /link /LIBPATH:\"C:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Lib\\x64\" msmpi.lib"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$msCompile"]
+        }
+    ]
+}
