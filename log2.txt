@@ -1,0 +1,6 @@
+vertex 2: local rank 2, local size 4, remote size 4, inter 1
+  2.000 recv 2 <- 6, value 62
+  3.000 recv 2 <- 7, value 72
+  3.000 start 2
+  7.000 send 2 -> 8, value 28
+  7.000 end 2

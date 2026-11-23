@@ -1,0 +1,5 @@
+vertex 7: local rank 0, local size 4, remote size 4, inter 1
+  0.000 start 7
+  3.000 send 7 -> 2, value 72
+  3.000 send 7 -> 5, value 75
+  3.000 end 7

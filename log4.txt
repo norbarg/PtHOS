@@ -1,0 +1,5 @@
+vertex 4: local rank 2, local size 4, remote size 4, inter 1
+  4.001 recv 4 <- 1, value 14
+  4.001 start 4
+  7.001 send 4 -> 8, value 48
+  7.001 end 4

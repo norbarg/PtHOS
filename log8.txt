@@ -1,0 +1,7 @@
+vertex 8: local rank 3, local size 4, remote size 4, inter 1
+  7.001 recv 8 <- 3, value 38
+  7.001 recv 8 <- 4, value 48
+  7.001 recv 8 <- 5, value 58
+  7.001 recv 8 <- 2, value 28
+  7.001 start 8
+  8.001 end 8

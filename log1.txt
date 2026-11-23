@@ -1,0 +1,6 @@
+vertex 1: local rank 1, local size 4, remote size 4, inter 1
+  2.001 recv 1 <- 6, value 61
+  2.001 start 1
+  4.001 send 1 -> 4, value 14
+  4.001 send 1 -> 5, value 15
+  4.001 end 1

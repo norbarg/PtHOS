@@ -1,0 +1,6 @@
+vertex 6: local rank 0, local size 4, remote size 4, inter 1
+  0.000 start 6
+  2.000 send 6 -> 2, value 62
+  2.000 send 6 -> 3, value 63
+  2.000 send 6 -> 1, value 61
+  2.001 end 6
